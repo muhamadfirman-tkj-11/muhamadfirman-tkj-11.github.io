@@ -1,0 +1,307 @@
+body { 
+  font-family: 'Bitter', serif;
+}
+
+.img {
+  border-radius: 70%; 
+  width: 150px; 
+  position: absolute; 
+  margin-left: 120px; height: 150px;
+}
+
+.nama {
+  position: absolute; 
+  margin-top: 165px; 
+  font-size: 25px; 
+  font-weight: bold;
+  color: black;
+  margin-left: 90px;
+}
+
+.st {
+  position: absolute;
+  margin-top: 200px;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  margin-left: 45px;
+}
+
+.judabout {
+  position: absolute;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-left: 135px;
+}
+
+.about {
+  margin-top: 40px;
+}
+
+.about1 {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.jskill {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.imgcisco {
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  height: 180px;
+}
+
+.txtcisco {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.imgtest {
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  height: 180px;
+}
+
+.txttest {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.imgwebdev {
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  height: 230px;
+}
+
+.txtwebdev {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.imgflutter {
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  height: 230px;
+}
+
+.txtflutter {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.imgas {
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  height: 230px;
+}
+
+.imgas1 {
+  margin: auto;
+  display: block;
+  padding-top: 10px;
+  height: 230px;
+}
+
+.txtas {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.projectsaya {
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.ps1 {
+  margin: auto;
+  padding-top: 20px;
+  height: 200px;
+}
+
+.ps2 {
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  height: 200px;
+}
+
+.ps3 {
+  margin: auto;
+  padding-top: 20px;
+  display: block;
+  height: 200px;
+}
+
+.ps4 {
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  height: 200px;
+}
+
+.txtps {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 40px;
+}
+
+.btndownload {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  background: white;
+  border: 2px solid black;
+  text-align: center;
+  padding-top: 10px;
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  width: 180px;
+  height: 40px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.btndownload:hover {
+  color: white;
+  background: black;
+  border: 2px solid blue;
+}
+
+.contact {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+}
+
+.n {
+  font-size: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.n a { 
+  text-decoration: none;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.n a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+footer {
+  font-size: 15px;
+  width: 100%;
+  height: 65px;
+  margin-top: 20px;
+  padding-top: 25px;
+  background: black;
+  color: white;
+}
+
+footer a { 
+  text-decoration: none;
+  font-size: 15px;
+  width: 100%;
+  height: 55px;
+  background: black;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  background: white;
+  border: 2px solid skyblue;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+  
+#particles-js {
+    background: skyblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 420px;
+    position: relative;
+}
+
+@media (min-width: 500px) {
+  .img {
+  border-radius: 50%; 
+  width: 150px; 
+  position: absolute; 
+  margin-left: 45%; 
+  height: 150px;
+}
+
+.nama {
+  position: absolute; 
+  margin-top: 165px; 
+  font-size: 25px; 
+  font-weight: bold;
+  color: black;
+  margin-left: 42%;
+}
+
+.st {
+  position: absolute;
+  margin-top: 200px;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  margin-left: 38%;
+}
+
+.judabout {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-left: 455px;
+}
+
+.about1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.imgwebdev {
+  display: block;
+  margin: auto;
+  height: 221px;
+}
+}
